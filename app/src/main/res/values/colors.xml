@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FA7298</color>
+    <color name="colorPrimaryDark">#FA7298</color>
+    <color name="colorAccent">#FA7298</color>
+    <color name="menuTextColor">#FFFFFF</color>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lsh.webviewtbs.WebviewVideoActivity">
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="72dp"
+           android:background="@color/cardview_dark_background"
+           android:text="提示:1.播放出现黑屏可能是资源问题，建议终止进程后重新进入app或多点击1-3次。2.由于是外网服务器，高峰期访问可能播放不稳定或加载黑屏请见谅，建议播放时点击右上角使用qq浏览器缓存！
+"
+           android:padding="10dp"
+           android:textColor="#ffffff"
+           android:textSize="14sp"
+           android:gravity="center_vertical"
+           />
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <ProgressBar
+               android:id="@+id/progressBar"
+               style="?android:attr/progressBarStyleHorizontal"
+               android:layout_width="match_parent"
+               android:layout_height="2dp"
+               android:max="100"
+               android:progress="0" />
+           <com.tencent.smtt.sdk.WebView
+               android:id="@+id/webview_wechat"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_below="@+id/progressBar"
+               />
+       </RelativeLayout>
+
+   </FrameLayout>
+
+
+
+</LinearLayout>

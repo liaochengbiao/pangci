@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/my_order_return_dialog"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_order_return_dialog"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+
+                <TextView
+                    android:id="@+id/tv_cancle_order_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="胖次看片必读"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorPrimary" />
+
+            </RelativeLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:layout_marginBottom="48dp"
+                >
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   >
+                   <TextView
+                       android:id="@+id/tv_content"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="16dp"
+                       android:lineSpacingExtra="3dp"
+                       android:paddingRight="18dp"
+                       android:textSize="16dp"
+                       android:textColor="#333333"
+                       android:text="1.凡充值后必须点击左侧退出重新登录即可获取会员权限（24小时内给予开通，特殊情况除外，想快速开通请点击右下角在线客服图标咨询胖次)"
+                       android:paddingLeft="26dp"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="16dp"
+                       android:lineSpacingExtra="3dp"
+                       android:paddingRight="18dp"
+                       android:textSize="16dp"
+                       android:textColor="#333333"
+                       android:text="2.由于是外网服务器，高峰期访问可能会出现播放不稳定或加载黑屏情况，建议播放时点击右上角使用QQ浏览器缓存后再进行观看"
+                       android:paddingLeft="26dp"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="16dp"
+                       android:lineSpacingExtra="3dp"
+                       android:paddingRight="18dp"
+                       android:textSize="16dp"
+                       android:textColor="#333333"
+                       android:text="3.请务必牢记账号密码，遗失无法找回！并请设置个人隐私中的手势密码。"
+                       android:paddingLeft="26dp"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="16dp"
+                       android:lineSpacingExtra="3dp"
+                       android:paddingRight="18dp"
+                       android:textSize="16dp"
+                       android:textColor="#333333"
+                       android:text="4.如充值24小时未到账或者注册有问题请联系客服请加小编微信:dabiaogeff"
+                       android:paddingLeft="26dp"
+                       />
+                   <View
+                       android:layout_width="match_parent"
+                       android:layout_height="8dp"
+                       android:background="#ffffff"
+                       />
+               </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_know"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="我知道了"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:paddingTop="10dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/my_order_return_dialog"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

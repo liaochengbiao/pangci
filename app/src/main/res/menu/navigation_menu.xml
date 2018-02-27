@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="会员权益">
+        <menu>
+            <item
+                android:id="@+id/navigation_menu_item_member"
+                android:icon="@drawable/member"
+                android:title="续费充值"/>
+
+            <item
+                android:id="@+id/navigation_menu_item_flock"
+                android:icon="@drawable/flock"
+                android:title="加入云群"/>
+
+            <item
+                android:id="@+id/navigation_menu_item_info"
+                android:icon="@drawable/my_info"
+                android:title="我的消息"/>
+
+            <item
+                android:id="@+id/navigation_menu_item_integral"
+                android:icon="@drawable/integral"
+                android:title="我的积分"/>
+
+        </menu>
+    </item>
+
+    <item android:title="应用相关">
+        <menu>
+            <item
+                android:id="@+id/navigation_menu_item_lock"
+                android:icon="@drawable/lock"
+                android:title="手势密码"/>
+
+            <item
+                android:id="@+id/navigation_menu_item_cache"
+                android:icon="@drawable/cache"
+                android:title="清理缓存"/>
+
+            <item
+                android:id="@+id/navigation_menu_item_version"
+                android:icon="@drawable/version"
+                android:title="版本更新"/>
+
+            <item
+                android:id="@+id/navigation_menu_item_exit"
+                android:icon="@drawable/exit"
+                android:title="退出登录"/>
+
+        </menu>
+    </item>
+
+</menu>

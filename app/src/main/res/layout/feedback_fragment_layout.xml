@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7E7E7"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:background="@drawable/message_shape"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="问题与意见"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            />
+
+        <EditText
+            android:id="@+id/feedback_content_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:background="@null"
+            android:hint="请简要描述你的问题和意见"
+            android:textColorHint="#90000000"
+            android:textSize="14sp"
+            android:maxLines="9"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/feedback_confirm_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_login_selector"
+        android:text="提交"
+        android:textColor="@drawable/btn_login_text_selector"
+        android:gravity="center"
+        />
+
+</LinearLayout>
